@@ -1,4 +1,4 @@
-# Git
+# Git Setup
 
 ## Installation
 1. Download the installer from [https://git-scm.com/download/win](https://git-scm.com/download/win)
@@ -43,10 +43,17 @@
 >
 > ![Screenshot of SSH key creation](../media/git-github-01.jpg)
 
-
-## Basic Commands
-
-- `git init <directory | current directory>`
-    - Create an empty git repo in the specified directory. Defaults to current directory
-- `git clone <repo>`
-    - 
+9. Copy the output of the command
+10. Add the SSH key to your GitHub account
+    1. Go to GitHub's [SSH key section](https://github.com/settings/ssh/new)
+    2. Add a descriptive title
+    3. Paste the public key
+        - ![Screenshot of SSH key form](../media/git-github-02.jpg)
+    4. Click `Add SSH key`
+11. Test your key with command:
+```
+    ssh -T git@github.com
+```
+12. Type in `yes` to add GitHub to known hosts
+13. If you see your GitHub username, congratulations!
+    - ![Screenshot of successful setup](../media/git-github-03.jpg)
