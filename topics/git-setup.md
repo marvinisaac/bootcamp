@@ -12,6 +12,11 @@
 3. Open a new terminal in VS Code and type `git -v`. The output should look like `git version 2.37.0.windows.1`
     - `View` > `Terminal`
     - `Terminal` > `New Terminal`
+4. Configure git by adding your name and email:
+```
+    git config --global user.email "<GitHub account email>"
+    git config --global user.name "<Your name>"
+```
 
 ## GitHub
 1. Create an account at [GitHub](https://github.com)
