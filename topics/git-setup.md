@@ -9,19 +9,9 @@
     - Default name of initial branch
         - Choose override and type in "main"
         - ![Screenshot of default branch name](../media/git-default-branch.jpg)
-3. Open VS Code and set Git Bash as the default terminal
-    1. Open the terminal
-        - `View` > `Terminal`
-        - `Terminal` > `New Terminal`
-    2. Click the circled dropdown menu
-        - ![Screenshot of dropdown menu](../media/git-default-profile-01.jpg)
-    3. Click `Select Default Profile`
-        - ![Screenshot of default profile option](../media/git-default-profile-02.jpg)
-    4. Select `Git Bash` in the displayed options
-        - ![Screenshot of available profiles](../media/git-default-profile-03.jpg)
-    5. Close/kill the current terminal by clicking the circled icon
-        - ![Screenshot of kill terminal icon](../media/git-default-profile-04.jpg)
-4. Open a new terminal in VS Code and type `git -v`
+3. Open a new terminal in VS Code and type `git -v`. The output should look like `git version 2.37.0.windows.1`
+    - `View` > `Terminal`
+    - `Terminal` > `New Terminal`
 
 ## GitHub
 1. Create an account at [GitHub](https://github.com)
@@ -57,3 +47,18 @@
 12. Type in `yes` to add GitHub to known hosts
 13. If you see your GitHub username, congratulations!
     - ![Screenshot of successful setup](../media/git-github-03.jpg)
+
+- - -
+
+## Optional Step
+
+### Set `Git Bash` as the default terminal
+1. Open the terminal
+2. Click the circled dropdown menu
+    - ![Screenshot of dropdown menu](../media/git-default-profile-01.jpg)
+3. Click `Select Default Profile`
+    - ![Screenshot of default profile option](../media/git-default-profile-02.jpg)
+4. Select `Git Bash` in the displayed options
+    - ![Screenshot of available profiles](../media/git-default-profile-03.jpg)
+5. Close/kill the current terminal by clicking the circled icon
+    - ![Screenshot of kill terminal icon](../media/git-default-profile-04.jpg)
