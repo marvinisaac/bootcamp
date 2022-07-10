@@ -5,10 +5,10 @@
 2. Run the installer and accept default values except for:
     - Default editor
         - Use "Nano" instead of "Vim"
-        - ![Screenshot of default editor](../media/git-default-editor.jpg)
+        - ![Screenshot of default editor](../../media/git-default-editor.jpg)
     - Default name of initial branch
         - Choose override and type in "main"
-        - ![Screenshot of default branch name](../media/git-default-branch.jpg)
+        - ![Screenshot of default branch name](../../media/git-default-branch.jpg)
 3. Open a new terminal in VS Code and type `git -v`. The output should look like `git version 2.37.0.windows.1`
     - `View` > `Terminal`
     - `Terminal` > `New Terminal`
@@ -36,14 +36,14 @@
 
 > The terminal should look something like this:
 >
-> ![Screenshot of SSH key creation](../media/git-github-01.jpg)
+> ![Screenshot of SSH key creation](../../media/git-github-01.jpg)
 
 9. Copy the output of the command
 10. Add the SSH key to your GitHub account
     1. Go to GitHub's [SSH key section](https://github.com/settings/ssh/new)
     2. Add a descriptive title
     3. Paste the public key
-        - ![Screenshot of SSH key form](../media/git-github-02.jpg)
+        - ![Screenshot of SSH key form](../../media/git-github-02.jpg)
     4. Click `Add SSH key`
 11. Test your key with command:
 ```
@@ -51,7 +51,7 @@
 ```
 12. Type in `yes` to add GitHub to known hosts
 13. If you see your GitHub username, congratulations!
-    - ![Screenshot of successful setup](../media/git-github-03.jpg)
+    - ![Screenshot of successful setup](../../media/git-github-03.jpg)
 
 - - -
 
@@ -60,10 +60,10 @@
 ### Set `Git Bash` as the default terminal
 1. Open the terminal
 2. Click the circled dropdown menu
-    - ![Screenshot of dropdown menu](../media/git-default-profile-01.jpg)
+    - ![Screenshot of dropdown menu](../../media/git-default-profile-01.jpg)
 3. Click `Select Default Profile`
-    - ![Screenshot of default profile option](../media/git-default-profile-02.jpg)
+    - ![Screenshot of default profile option](../../media/git-default-profile-02.jpg)
 4. Select `Git Bash` in the displayed options
-    - ![Screenshot of available profiles](../media/git-default-profile-03.jpg)
+    - ![Screenshot of available profiles](../../media/git-default-profile-03.jpg)
 5. Close/kill the current terminal by clicking the circled icon
-    - ![Screenshot of kill terminal icon](../media/git-default-profile-04.jpg)
+    - ![Screenshot of kill terminal icon](../../media/git-default-profile-04.jpg)

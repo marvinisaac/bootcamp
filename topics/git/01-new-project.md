@@ -95,4 +95,4 @@
 
 ## Notes
 - Working directory vs staging area vs local repo vs remote repo
-- ![Git working directory vs staging area vs local repo vs remote repo](../media/git-working-staging-local-remote.png)
+- ![Git working directory vs staging area vs local repo vs remote repo](../../media/git-working-staging-local-remote.png)
