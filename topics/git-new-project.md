@@ -23,10 +23,6 @@
 ```
 3. Use the command `git init` to transform the current directory into a git repo
 4. Use the command `git add .` to add `index.html` to the staging area
-    - ![Git working tree vs staging area vs local repo](../media/git-working-staging-local.png)
-    <sup>
-        [Source](https://medium.com/@lucasmaurer/git-gud-the-working-tree-staging-area-and-local-repo-a1f0f4822018)
-    </sup>
 5. Use the command `git commit -m <message>` to prepare the commit
 6. Add the remote repo's URL with the command:
 ```
@@ -96,3 +92,7 @@
     - View all commits in the current repo
     - The `-<number>` option limits the number of commits displayed
     - The `--oneline` option limits the commit details to the first paragraph only
+
+## Notes
+- Working directory vs staging area vs local repo vs remote repo
+- ![Git working directory vs staging area vs local repo vs remote repo](../media/git-working-staging-local-remote.png)
