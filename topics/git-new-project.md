@@ -23,7 +23,7 @@
 ```
 3. Use the command `git init` to transform the current directory into a git repo
 4. Use the command `git add .` to add `index.html` to the staging area
-5. Use the command `git commit -m <message>` to prepare the commit
+5. Use the command `git commit -m "<message>"` to prepare the commit
 6. Add the remote repo's URL with the command:
 ```
     git remote add origin git@github.com:marvin-kodego/my-first-repo.git
@@ -51,17 +51,17 @@
     - Option 1: Push all changes in one commit
         ```
             git add .
-            git commit -m <message>
+            git commit -m "<message>"
             git push
         ```
     - Option 2: Push each change individually
         ```
             git add index.html
-            git commit -m <message>
+            git commit -m "<message>"
             git push
 
             git add style.css
-            git commit -m <message>
+            git commit -m "<message>"
             git push
         ```
 6. Use the command `git log` to see all commits
@@ -76,8 +76,8 @@
     - Instead of specifying a file name, the `.` option can be used to add all changes to the staging area
 - `git commit`
     - Prepares a commit and uses a Nano editor to edit the commit message
-    - The `-m <message>` option can be used to set the commit message without opening Nano
-    - The `-m <message>` option can be used multiple times, adding a new paragraph for every use
+    - The `-m "<message>"` option can be used to set the commit message without opening Nano
+    - The `-m "<message>"` option can be used multiple times, adding a new paragraph for every use
 - `git remote add <name> <url>`
     - Add a remote repo to the project
 - `git push`
@@ -90,7 +90,7 @@
     - Displays changes to *tracked* files
 - `git log`
     - View all commits in the current repo
-    - The `-<number>` option limits the number of commits displayed
+    - The `-<limit>` option limits the number of commits displayed
     - The `--oneline` option limits the commit details to the first paragraph only
 
 ## Notes
